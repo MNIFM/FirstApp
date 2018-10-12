@@ -10,9 +10,17 @@
                        [id]= "appareil.id"></app-appareil>
       </ul>
       <p></p>
-      <button class="btn btn-success"
-              (click)="onAllumer()">Tout allumer</button>
-              &nbsp;
-      <button class="btn btn-danger"
-              (click)="onEteindre()">Tout éteindre</button>
+   
+        <button class="btn btn-success"
+                (click)="onAllumer()">Tout allumer</button>
+                  &nbsp;
+        <button class="btn btn-danger"
+                (click)="onEteindre()">Tout éteindre</button>
+                  &nbsp;
+        <button class="btn btn-primary"
+                (click)="onSave()">Enregistrer les appareils</button>
+                  &nbsp;
+        <button class="btn btn-primary"
+                (click)="onFetch()">Récupérer les appareils</button>                
+                
     </div>
